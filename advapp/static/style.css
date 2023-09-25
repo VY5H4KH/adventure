@@ -10,7 +10,6 @@ header{
 #b1{
     background-image: url(https://www.visitsaudi.com/content/dam/saudi-tourism/media/activities-and-attractions-categories/Adventure_Activities_Hero_Banner.jpg);
     background-color: rgb(12, 12, 9);
-    background-size: cover;
     
     margin:0;
     padding:0;
@@ -20,7 +19,6 @@ header{
 }
 #b2{
     background-image: url(https://www.nativeplanet.com/img/2023/06/bugy3-1685953191.jpg);
-    background-size: cover;
     background-color: rgb(12, 12, 9);
     
     margin:0;
@@ -36,7 +34,7 @@ header{
     background-color: rgb(44, 76, 129);
     
     margin:0;
-    padding:0%;
+    padding:0;
     font-size: medium;
     font-family: 'Lora', serif;
 
@@ -101,7 +99,7 @@ footer{
     background-color:rgb(97, 93, 87);
     display: flex;
     justify-content: space-around;
-    position: relative;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
